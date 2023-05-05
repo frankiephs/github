@@ -1,5 +1,5 @@
-Gravity = 9.8
-Distance = 72
-Force = Distance * Gravity
+Acceleration = float(input("Add an acceleration"))
+Mass = float(input("Add mass"))
+Force = Mass * Acceleration 
 
-print(Force)
+print(str(Force) + " " + "N")
